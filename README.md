@@ -87,7 +87,7 @@ Converte unidades de velocidade entre:
    - `[5] Energia`
    - `[6] Pressão`
    - `[7] Temperatura`
-   - `[0] Sair`
+   - `[8] Sair`
 
 2. **Escolha uma opção digitando o número correspondente** e pressione `Enter`.
 
@@ -99,7 +99,7 @@ Converte unidades de velocidade entre:
 
 4. O programa exibirá o resultado da conversão.
 
-5. **Para sair, selecione a opção `[0]`.**
+5. **Para sair, selecione a opção `[8]`.**
 
 ### Exemplos de Uso
 
