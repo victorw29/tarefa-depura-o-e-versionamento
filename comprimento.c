@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void converterUnidades(void) {
+void converterComprimento(void) {
     float valor, resultado;
     int unidadeOrigem, unidadeDestino;
 
