@@ -68,7 +68,7 @@ Converte unidades de velocidade entre:
 2. **Compile o programa:**
 
    ```bash
-   gcc main.c -o conversor
+   gcc main.c comprimento.c -o conversor
    ```
 
 3. **Execute o programa:**
