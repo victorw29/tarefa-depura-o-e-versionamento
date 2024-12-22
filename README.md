@@ -137,9 +137,9 @@ Segue abaixo os perfis colaboradores deste projeto:
 
 - [AnaBeatriz](https://github.com/anabeatrizsse1)
 - [Gabriela](https://github.com/gbdeiro)
-- [JonathanMatos](https://github.com/JonathanMatos25)
+-[ JonathanMatos](https://github.com/JonathanMatos25)
 - [PedroAlonso](https://github.com/pedroalonso19)
 - [Davi](https://github.com/Pr0wer)
 - [UalaceHenrique](https://github.com/UalaceCafe)
 - [ViniciusPaz](https://github.com/V1n1Paz)
-- [VictorWeverthon] (https://github.com/victorw29)
+- [VictorWeverthon](https://github.com/victorw29)
