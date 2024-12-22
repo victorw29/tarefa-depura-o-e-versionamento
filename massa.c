@@ -35,8 +35,3 @@ void converterMassa(void) {
         printf("Opcao invalida. Por favor, escolha unidades validas.\n");
     }
 }
-
-int main() {
-    converterMassa();
-    return 0;
-}
