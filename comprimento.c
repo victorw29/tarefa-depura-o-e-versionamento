@@ -52,13 +52,13 @@ void converterComprimento(void) {
 
 void converterTempo(void) {
     // Unidades de tempo disponíveis
-    typedef enum {
+    enum Unidades {
         HORAS = 1, MINUTOS, SEGUNDOS
-    } Unidades;
+    };
     const int NUM_UNIDADES = 3;
 
     int unidadeOrigem, unidadeDestino;
-    double valor, resultado;
+    float valor, resultado;
 
     // Pedir ao usuário a unidade que se deseja converter
     printf("\nQual eh a unidade de medida inicial?\n");
@@ -72,10 +72,10 @@ void converterTempo(void) {
 
     // Pedir o valor (em unidade escolhida) ao usuário
     printf("Digite o valor a ser convertido: ");
-    scanf("%d", &valor);
+    scanf("%f", &valor);
 
     // Pedir ao usuário para qual unidade o valor deve ser convertido
-    printf("Converter para qual unidade?");
+    printf("Converter para qual unidade?\n");
     printf("1. Horas\n");
     printf("2. Minutos\n");
     printf("3. Segundos\n");
