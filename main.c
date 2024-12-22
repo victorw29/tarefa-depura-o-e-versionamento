@@ -13,7 +13,7 @@ void sair(void);
 
 
 int main(void) {
-    setlocale(LC_ALL, ""); // Configura o uso de UTF-8
+    setlocale(LC_CTYPE, "pt_BR.UTF-8"); // Configura o uso de UTF-8
     int resposta;
 
     do {
@@ -30,10 +30,10 @@ int main(void) {
         printf("-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=\n");
         printf("Escolha uma opção: ");
 
-        if (scanf("%d", &resposta) != 1) { 
+        if (scanf("%d", &resposta) != 1) {
             printf("\nEntrada inválida. Por favor, insira um número de 1 a 8.\n");
-            while (getchar() != '\n'); 
-            continue; 
+            while (getchar() != '\n');
+            continue;
         }
 
         switch (resposta) {
@@ -65,7 +65,7 @@ int main(void) {
             printf("\nOpção inválida. Por favor, escolha um número entre 1 e 8.\n");
             break;
         }
-    } while (resposta != 8); 
+    } while (resposta != 8);
 
     return 0;
 }
