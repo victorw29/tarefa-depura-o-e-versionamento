@@ -142,4 +142,4 @@ Segue abaixo os perfis colaboradores deste projeto:
 - [Davi](https://github.com/Pr0wer)
 - [UalaceHenrique](https://github.com/UalaceCafe)
 - [ViniciusPaz](https://github.com/V1n1Paz)
-- [VictorWeverthon] 
+- [VictorWeverthon] (https://github.com/victorw29)
