@@ -54,6 +54,15 @@ Converte unidades de velocidade entre:
 - Metros por segundo (m/s);
 - Milhas por hora (mph);
 
+### 7. Energia
+
+
+Converte unidades de energia entre:
+
+-Joules (J)
+-Quilowatt-horas (kWh)
+-Calorias (cal)
+
 ## Como Usar
 
 ### Pré-requisitos
@@ -137,7 +146,7 @@ Segue abaixo os perfis colaboradores deste projeto:
 
 - [AnaBeatriz](https://github.com/anabeatrizsse1)
 - [Gabriela](https://github.com/gbdeiro)
--[ JonathanMatos](https://github.com/JonathanMatos25)
+- [JonathanMatos](https://github.com/JonathanMatos25)
 - [PedroAlonso](https://github.com/pedroalonso19)
 - [Davi](https://github.com/Pr0wer)
 - [UalaceHenrique](https://github.com/UalaceCafe)
