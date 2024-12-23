@@ -59,9 +59,9 @@ Converte unidades de velocidade entre:
 
 Converte unidades de energia entre:
 
--Joules (J)
--Quilowatt-horas (kWh)
--Calorias (cal)
+- Joules (J);
+- Quilowatt-horas (kWh);
+- Calorias (cal);
 
 ## Como Usar
 
