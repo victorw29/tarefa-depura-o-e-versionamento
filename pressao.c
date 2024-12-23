@@ -8,6 +8,7 @@ void converterPressao(void) {
     printf("\nQual e a unidade de medida inicial?\n");
     printf("1. Pascal (Pa)\n");
     printf("2. Pressão Atmosférica (atm)\n");
+	printf("3. Milímetros de Mercúrio (mmHg)\n");
     printf("Escolha uma opcao (1 ou 2): ");
     scanf("%d", &unidadeOrigem);
 
@@ -19,6 +20,7 @@ void converterPressao(void) {
     printf("\nPara qual unidade voce quer converter?\n");
 	printf("1. Pascal (Pa)\n");
     printf("2. Pressão Atmosférica (atm)\n");
+	printf("3. Milímetros de Mercúrio (mmHg)\n");
     printf("Escolha uma opcao (1 ou 2): ");
     scanf("%d", &unidadeDestino);
 
@@ -32,6 +34,10 @@ void converterPressao(void) {
 			resultado = valor / 101325; // Pascal para Pressão Atmosférica
 			printf("%.4f Pa equivalem a %.4f atm.\n", valor, resultado);
 			break;
+		case 3:
+			resultado = valor / 133.322; // Pascal para Milímetros de Mercúrio
+			printf("%.4f Pa equivalem a %.4f mmHg.\n", valor, resultado);
+			break;
 		default:
 			printf("Opcao invalida. Por favor, escolha unidades validas.\n");
 			break;
@@ -44,6 +50,28 @@ void converterPressao(void) {
 			printf("%.4f atm equivalem a %.4f Pa.\n", valor, resultado);
 			break;
 		case 2:
+			printf("O valor permanece o mesmo: %.4f.\n", valor);
+			break;
+		case 3:
+			resultado = valor * 760; // Pressão Atmosférica para Milímetros de Mercúrio
+			printf("%.4f atm equivalem a %.4f mmHg.\n", valor, resultado);
+			break;
+		default:
+			printf("Opcao invalida. Por favor, escolha unidades validas.\n");
+			break;
+		}
+		break;
+	case 3:
+		switch (unidadeDestino) {
+		case 1:
+			resultado = valor * 133.322; // Milímetros de Mercúrio para Pascal
+			printf("%.4f mmHg equivalem a %.4f Pa.\n", valor, resultado);
+			break;
+		case 2:
+			resultado = valor / 760; // Milímetros de Mercúrio para Pressão Atmosférica
+			printf("%.4f mmHg equivalem a %.4f atm.\n", valor, resultado);
+			break;
+		case 3:
 			printf("O valor permanece o mesmo: %.4f.\n", valor);
 			break;
 		default:
