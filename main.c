@@ -9,7 +9,10 @@ void converterTempo(void);
 void converterEnergia(void);
 void converterPressao(void);
 void converterTemperatura(void);
-void sair(void);
+void sair(void) { 
+    printf("\nObrigado por usar o Conversor de Unidades!\n");
+    printf("Esperamos vê-lo novamente. Até mais!\n");
+}
 
 
 int main(void) {
