@@ -77,7 +77,7 @@ Converte unidades de energia entre:
 2. **Compile o programa:**
 
    ```bash
-   gcc main.c comprimento.c -o conversor
+   gcc main.c comprimento.c volume.c massa.c tempo.c energia.c pressao.c Temperatura.c -o conversor
    ```
 
 3. **Execute o programa:**
