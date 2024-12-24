@@ -14,23 +14,7 @@ Converte unidades de comprimento entre:
 - Centímetros (cm);
 - Milímetros (mm);
 
-### 2. Temperatura
-
-Converte temperaturas entre:
-
-- Celsius (°C);
-- Kelvin (K);
-- Fahrenheit (°F);
-
-### 3. Massa
-
-Converte unidades de massa entre:
-
-- Quilogramas (kg);
-- Gramas (g);
-- Toneladas (t);
-
-### 4. Volume
+### 2. Volume
 
 Converte unidades de volume entre:
 
@@ -38,7 +22,14 @@ Converte unidades de volume entre:
 - Mililitros (mL);
 - Metros cúbicos (m³);
 
-### 5. Tempo
+### 3. Massa
+
+Converte unidades de massa entre:
+
+- Quilogramas (kg);
+- Gramas (g);
+
+### 4. Tempo
 
 Converte unidades de tempo entre:
 
@@ -46,22 +37,29 @@ Converte unidades de tempo entre:
 - Minutos;
 - Segundos;
 
-### 6. Velocidade
-
-Converte unidades de velocidade entre:
-
-- Quilômetros por hora (km/h);
-- Metros por segundo (m/s);
-- Milhas por hora (mph);
-
-### 7. Energia
-
+### 5. Energia
 
 Converte unidades de energia entre:
 
 - Joules (J);
 - Quilowatt-horas (kWh);
 - Calorias (cal);
+
+### 6. Pressão
+
+Converte unidades de pressão atmosférica entre:
+
+- Pascal (Pa);
+- Pressão Atmosférica (atm);
+- Milímetros de Mercúrio (mmHg); 
+
+### 7.Temperatura
+
+Converte temperaturas entre:
+
+- Celsius (°C);
+- Kelvin (K);
+- Fahrenheit (°F);
 
 ## Como Usar
 
