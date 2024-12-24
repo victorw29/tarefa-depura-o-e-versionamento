@@ -144,11 +144,11 @@ Contribuições são bem-vindas! Sinta-se à vontade para melhorar o programa ou
 
 Segue abaixo os perfis colaboradores deste projeto:
 
-- [AnaBeatriz](https://github.com/anabeatrizsse1)
-- [Gabriela](https://github.com/gbdeiro)
-- [JonathanMatos](https://github.com/JonathanMatos25)
-- [PedroAlonso](https://github.com/pedroalonso19)
-- [Davi](https://github.com/Pr0wer)
-- [UalaceHenrique](https://github.com/UalaceCafe)
-- [ViniciusPaz](https://github.com/V1n1Paz)
-- [VictorWeverthon](https://github.com/victorw29)
+- [AnaBeatriz](https://github.com/anabeatrizsse1) (Conversor de comprimento);
+- [Gabriela](https://github.com/gbdeiro) (Conversor de Energia);
+- [JonathanMatos](https://github.com/JonathanMatos25) (Conversor de Temperatura);
+- [PedroAlonso](https://github.com/pedroalonso19) (Conversor de Massa);
+- [Davi](https://github.com/Pr0wer) (Conversor de Tempo);
+- [UalaceHenrique](https://github.com/UalaceCafe) (Conversor de Pressão);
+- [ViniciusPaz](https://github.com/V1n1Paz) (Conversor de Volume);
+- [VictorWeverthon](https://github.com/victorw29) (Menu);
