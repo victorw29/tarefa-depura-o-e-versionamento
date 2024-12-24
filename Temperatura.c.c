@@ -2,6 +2,8 @@
 #include <stdlib.h>
 #include <locale.h>
 
+void converterTemperatura(void){
+
 // Funções de conversão de temperatura
 double celsius_para_kelvin(double c) {
     return c + 273.15;
@@ -69,4 +71,5 @@ int main() {
 
     printf("Resultado da conversão: %.2f\n", resultado);
     return 0;
+}
 }
