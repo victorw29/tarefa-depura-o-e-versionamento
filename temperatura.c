@@ -83,3 +83,13 @@ void converterTemperatura(void) {
             printf("Opcao invalida. Por favor, escolha unidades validas.\n");
     }
 }
+ int continuar;
+    do {
+        converterTemperatura();
+        printf("\nDeseja realizar outra conversao? (1 para Sim, 0 para Nao): ");
+        scanf("%d", &continuar);
+    } while (continuar == 1);
+
+    printf("Programa encerrado.\n");
+    return 0;
+}
